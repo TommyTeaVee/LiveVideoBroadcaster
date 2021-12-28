@@ -1,7 +1,7 @@
 package io.antmedia.android;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * PLEASE WRITE RTMP BASE URL of the your RTMP SERVER.
      */
-    public static final String RTMP_BASE_URL = "rtmp://10.10.31.87/LiveApp/";
+    public static final String RTMP_BASE_URL = "rtmp://tv.qtune.io/live?e=YmxscFFqTmtabVJaUlRkWlkyMUdOMUZSYm5KcU55c3phaXRFUTFOSlMwOVBOM2RwTWxJeVdFVlpiVFJWVEdoRWEybFJXRnA0Wm5OR05GSjRablZrYmc9PQ&webSiteRootURL=aHR0cHM6Ly90di5xdHVuZS5pby8/61c51328de25a-1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
